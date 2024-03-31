@@ -1,0 +1,28 @@
+body{
+    background-color:goldenrod;
+}
+h1{
+    color:aquamarine;
+    background-color: crimson;
+}
+#show_sketch{
+    float:right;
+}
+canvas{
+    border: 10px solid maroon;
+    border-radius: 30px;
+    animation-name: example;
+    animation-duration: 6s;
+    margin-top: 60px;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 2px 2px 45px black;}
+    to{box-shadow: 2px 2px 45px white;}
+}
+
+p{
+    padding-top: 60px;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
